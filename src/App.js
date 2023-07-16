@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="font-nunito-sans bg-slate-800 text-stone-50">
       <Header />
-      <main className="pt-40">
+      <main>
         <About />
         <Skills />
         <InternshipSection />

@@ -37,8 +37,8 @@ export default function Education() {
     )
 
     return (
-        <div id="skills" className="md:px-10 pt-10">
-            <h1 className="text-center text-4xl font-bold">Skills</h1>
+        <div id="skills" className="md:px-10 pt-36">
+            <h1 className="text-center text-3xl md:text-4xl font-bold">Skills</h1>
 
             <div className="font-medium pt-10 p-5">
                 {/* Programming Languages */}

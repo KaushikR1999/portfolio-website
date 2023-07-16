@@ -13,7 +13,7 @@ export default function Internship(props) {
     )
 
     return (
-        <div id="experience" className="pt-20">
+        <div id="experience" className="pt-36">
             <h1 className="text-center text-3xl md:text-4xl font-bold">Experience</h1>
             {internshipComponents}
         </div>

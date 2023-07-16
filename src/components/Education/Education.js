@@ -13,7 +13,7 @@ export default function Education() {
     )
 
     return (
-        <div id="education" className="pt-20 pb-10">
+        <div id="education" className="pt-36 pb-10">
             <h1 className="text-center text-3xl md:text-4xl font-bold">Education</h1>
             {educationComponents}
         </div>
