@@ -2,6 +2,11 @@ import tesLogo from '../../images/Experience/tes_logo.png';
 import shopeeLogo from '../../images/Experience/shopee_logo.png';
 import questLogo from '../../images/Experience/quest_logo.png';
 
+import pythonLogo from '../../images/Skills/python.png';
+import prestoLogo from '../../images/Skills/prestosql.png';
+import tableauLogo from '../../images/Skills/tableau.svg';
+import powerbiLogo from '../../images/Skills/powerbi.png';
+
 
 const internshipData = [
     {
@@ -17,12 +22,29 @@ const internshipData = [
         ],
         companyLogo: tesLogo,
         toolsUsed: [
-            "SQL",
-            "Python",
+            // "Python",
+            // "SQL",
             "AWS",
-            "PowerBI",
+            // "PowerBI",
             "Data Analytics",
             "Machine Learning"
+        ],
+        toolIcons: [
+            {
+                id: 1, 
+                skillName: "Python",
+                skillLogo: pythonLogo
+            },
+            {
+                id: 2, 
+                skillName: "PrestoSQL",
+                skillLogo: prestoLogo
+            },
+            {
+                id: 3, 
+                skillName: "PowerBI",
+                skillLogo: powerbiLogo
+            }
         ]
     },
     {
@@ -36,8 +58,15 @@ const internshipData = [
         ],
         companyLogo: shopeeLogo,
         toolsUsed: [
-            "SQL",
+            // "SQL",
             "Business Intelligence"
+        ],
+        toolIcons: [
+            {
+                id: 1, 
+                skillName: "PrestoSQL",
+                skillLogo: prestoLogo
+            }
         ]
     },
     {
@@ -52,9 +81,21 @@ const internshipData = [
         ],
         companyLogo: questLogo,
         toolsUsed: [
-            "Python",
-            "Tableau",
+            // "Python",
+            // "Tableau",
             "Data Analytics"
+        ],
+        toolIcons: [
+            {
+                id: 1, 
+                skillName: "Python",
+                skillLogo: pythonLogo
+            },
+            {
+                id: 2, 
+                skillName: "Tableau",
+                skillLogo: tableauLogo
+            }
         ]
     }
 ]
