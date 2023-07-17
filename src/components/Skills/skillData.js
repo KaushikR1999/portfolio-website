@@ -9,6 +9,7 @@ import postgreLogo from '../../images/Skills/postgre.png';
 import mysqlLogo from '../../images/Skills/mysql.png';
 import tableauLogo from '../../images/Skills/tableau.svg';
 import powerbiLogo from '../../images/Skills/powerbi.png';
+import prestoLogo from '../../images/Skills/prestosql.png';
 
 const skillData = [
     // Programming Languages
@@ -37,22 +38,22 @@ const skillData = [
     // Web Development
     [
         {
-            id: 5,
+            id: 1,
             skillName: "HTML",
             skillLogo: htmlLogo
         },
         {
-            id: 6, 
+            id: 2, 
             skillName: "CSS",
             skillLogo: cssLogo
         },
         {
-            id: 7, 
+            id: 3, 
             skillName: "JavaScript",
             skillLogo: jsLogo
         },
         {
-            id: 8, 
+            id: 4, 
             skillName: "React.js",
             skillLogo: reactLogo
         },
@@ -60,30 +61,35 @@ const skillData = [
     // Database
     [
         {
-            id: 9, 
+            id: 1, 
             skillName: "PostgreSQL",
             skillLogo: postgreLogo
         },
         {
-            id: 10, 
+            id: 2, 
             skillName: "MySQL",
             skillLogo: mysqlLogo
         },
         {
-            id: 11, 
+            id: 3, 
             skillName: "SQL",
             skillLogo: sqlLogo
         },
+        {
+            id: 4, 
+            skillName: "PrestoSQL",
+            skillLogo: prestoLogo
+        }
     ],
     // Data Visualisation
     [
         {
-            id: 12, 
+            id: 1, 
             skillName: "Tableau",
             skillLogo: tableauLogo
         },
         {
-            id: 13, 
+            id: 2, 
             skillName: "PowerBI",
             skillLogo: powerbiLogo
         },
