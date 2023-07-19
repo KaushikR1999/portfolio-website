@@ -12,9 +12,9 @@ export default function Internship(props) {
             </div>
 
             {/* Column to display internship responsibilities */}
-            <div className="pt-5 md:pt-0 md:justify-start md:pr-20">
+            <div className="pt-5 md:pt-0 md:justify-start lg:mr-40">
                 <p className="font-semibold text-center md:text-start text-emerald-200">{props.internship.role}</p>
-                <ul className="justify-center pt-5 list-disc space-y-2">
+                <ul className="pt-5 list-disc space-y-2">
                     {props.internship.description.map((item, index) => (
                         <li className="text-sm" key={index}>{item}</li>
                     ))}
