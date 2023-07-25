@@ -1,4 +1,4 @@
-import nusLogo from '../../images/Education/nus_logo.png';
+import nusLogo from '../../images/Education/nus_logo_silver_.png';
 
 const educationData = [
     {
