@@ -30,7 +30,7 @@ export default function Internship(props) {
                 {/* <p className="text-xs shadow-xl bg-teal-600 rounded-xl p-1.5 mt-2 max-w-max">Tools Used</p>  */}
                 <ul className="flex flex-wrap justify-items-start space-x-2 pt-5">
                     {props.internship.toolIcons.map((item, index) => (
-                        <div className="group flex flex-col items-center">
+                        <div className="group flex flex-col items-center py-2">
                             <img className="w-10 h-10 transition duration-500 group-hover:scale-75" src={item.skillLogo} alt={item.skillName}></img>
                             <p className="text-xs opacity-0 transition duration-500 group-hover:opacity-100">{item.skillName}</p>
                         </div>
