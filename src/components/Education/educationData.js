@@ -7,9 +7,9 @@ const educationData = [
         schoolLogo: nusLogo,
         duration: "Aug 2020 - May 2024",
         description: [
-            "Bachelor of Computing in Information Systems",
-            "Awarded Certificate of Merit in ICT Solutioning Knowledge Area",
-            "SoC Student Awards 2021: Certificate of Recognition (Leadership)",
+            "Bachelor of Computing in Information Systems (Honours)",
+            "Certificate of Merit in Information and Communications Technology (ICT) Solutioning Knowledge Area",
+            "NUS School of Computing Certificate of Recognition (Leadership)",
             // "Relevant Coursework: Programming Methodology, Data Structures and Algorithms, Data Management & Visualization, Data Engineering, Information Technologies in Financial Services, Analytics Driven Design of Adaptive Systems, Blockchain and Distributed Ledger Technologies"
         ]
     }
