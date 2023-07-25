@@ -6,6 +6,10 @@ import pythonLogo from '../../images/Skills/python.png';
 import prestoLogo from '../../images/Skills/prestosql.png';
 import tableauLogo from '../../images/Skills/tableau.svg';
 import powerbiLogo from '../../images/Skills/powerbi.png';
+import pandasLogo from '../../images/Skills/pandas.png';
+import scikitLogo from '../../images/Skills/scikit.png';
+import matplotlibLogo from '../../images/Skills/matplotlib.png';
+import seabornLogo from '../../images/Skills/seaborn.png';
 
 
 const internshipData = [
@@ -32,19 +36,39 @@ const internshipData = [
         toolIcons: [
             {
                 id: 1, 
+                skillName: "Pandas",
+                skillLogo: pandasLogo
+            },
+            {
+                id: 2, 
+                skillName: "Matplotlib",
+                skillLogo: matplotlibLogo
+            },
+            {
+                id: 3, 
+                skillName: "Seaborn",
+                skillLogo: seabornLogo
+            },
+            {
+                id: 4, 
+                skillName: "Scikit-Learn",
+                skillLogo: scikitLogo
+            },
+            {
+                id: 5, 
                 skillName: "Python",
                 skillLogo: pythonLogo
             },
             {
-                id: 2, 
+                id: 6, 
                 skillName: "PrestoSQL",
                 skillLogo: prestoLogo
             },
             {
-                id: 3, 
+                id: 7, 
                 skillName: "PowerBI",
                 skillLogo: powerbiLogo
-            }
+            },
         ]
     },
     {
@@ -88,11 +112,21 @@ const internshipData = [
         toolIcons: [
             {
                 id: 1, 
-                skillName: "Python",
-                skillLogo: pythonLogo
+                skillName: "Pandas",
+                skillLogo: pandasLogo
             },
             {
                 id: 2, 
+                skillName: "Matplotlib",
+                skillLogo: matplotlibLogo
+            },
+            {
+                id: 3, 
+                skillName: "Seaborn",
+                skillLogo: seabornLogo
+            },
+            {
+                id: 4, 
                 skillName: "Tableau",
                 skillLogo: tableauLogo
             }
