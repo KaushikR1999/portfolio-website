@@ -12,7 +12,7 @@ export default function Education() {
         }
     )
 
-    const webdevComponents = skillData[1].map(
+    const datasciComponents = skillData[1].map(
         skill => {
             return (
                 <SkillCard key={skill.id} skill={skill} />
@@ -20,7 +20,7 @@ export default function Education() {
         }
     )
 
-    const databaseComponents = skillData[2].map(
+    const datavizComponents = skillData[2].map(
         skill => {
             return (
                 <SkillCard key={skill.id} skill={skill} />
@@ -28,13 +28,22 @@ export default function Education() {
         }
     )
 
-    const datavizComponents = skillData[3].map(
+    const databaseComponents = skillData[3].map(
         skill => {
             return (
                 <SkillCard key={skill.id} skill={skill} />
             )
         }
     )
+
+    const webdevComponents = skillData[4].map(
+        skill => {
+            return (
+                <SkillCard key={skill.id} skill={skill} />
+            )
+        }
+    )
+
 
     return (
         <div id="skills" className="md:px-10 pt-36">
@@ -50,15 +59,27 @@ export default function Education() {
                         ))}
                     </ul>
                 </div>
-                {/* Web Development */}
+
+                {/* Data Science & Analytics */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
-                    <p className="font-bold">Web Development</p>
+                    <p className="font-bold">Data Science & Analytics</p>
                     <ul className="flex flex-row grid grid-cols-4 pt-5">
-                        {webdevComponents.map((item, index) => (
+                        {datasciComponents.map((item, index) => (
                             <li className="" key={index}>{item}</li>
                         ))}
                     </ul>
                 </div>
+
+                {/* Data Visualisation */}
+                <div className="shadow-2xl p-5 mb-5 rounded-lg">
+                    <p className="font-bold">Data Visualisation</p>
+                    <ul className="flex flex-row grid grid-cols-4 pt-5">
+                        {datavizComponents.map((item, index) => (
+                            <li className="" key={index}>{item}</li>
+                        ))}
+                    </ul>
+                </div>
+
                 {/* Database */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
                     <p className="font-bold">Database</p>
@@ -68,11 +89,12 @@ export default function Education() {
                         ))}
                     </ul>
                 </div>
-                {/* Data Visualisation */}
+
+                {/* Web Development */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
-                    <p className="font-bold">Data Visualisation</p>
+                    <p className="font-bold">Web Development</p>
                     <ul className="flex flex-row grid grid-cols-4 pt-5">
-                        {datavizComponents.map((item, index) => (
+                        {webdevComponents.map((item, index) => (
                             <li className="" key={index}>{item}</li>
                         ))}
                     </ul>
