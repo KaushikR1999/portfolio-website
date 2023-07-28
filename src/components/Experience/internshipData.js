@@ -19,10 +19,10 @@ const internshipData = [
         role: "Data Analyst Intern",
         internshipPeriod: "Jan 2023 - Jun 2023",
         description: [
+            "Executed machine learning models such as Linear Regression, XGBoost, CatBoost, Random Forest, K Nearest Neighbours, to predict customer value and generate revenue insights for the Sales Team",
             "Automated manual Excel processes using Python, resulting in a 50% reduction in man-hours",
             "Enhanced and maintained Group Financial Storyboards for the Finance Department using PowerBI",
-            "Implemented Python scripts to streamline monthly data verification processes, enhancing efficiency and accuracy",
-            "Researched and authored a paper on customer value prediction utilising machine learning models"
+            "Implemented Python scripts to streamline monthly data verification processes, enhancing efficiency and accuracy"
         ],
         companyLogo: tesLogo,
         toolsUsed: [
@@ -77,7 +77,8 @@ const internshipData = [
         role: "Business Intelligence Intern",
         internshipPeriod: "Sep 2022 - Dec 2022",
         description: [
-            "Devised end-to-end dashboards using SQL to monitor key business metrics to support business operation teams",
+            "Automated monitoring of key business metrics by developing SQL scripts to support to business operation teams",
+            "Created workflows to track buyer delivery collection lapses, streamlining operational processes",
             "Managed migration of data workflows, improving data processing by over 20%"
         ],
         companyLogo: shopeeLogo,
