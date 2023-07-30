@@ -19,10 +19,10 @@ const internshipData = [
         role: "Data Analyst Intern",
         internshipPeriod: "Jan 2023 - Jun 2023",
         description: [
-            "Executed machine learning models such as Linear Regression, XGBoost, CatBoost, Random Forest, K Nearest Neighbours, to predict customer value and generate revenue insights for the Sales Team",
-            "Automated manual Excel processes using Python, resulting in a 50% reduction in man-hours",
-            "Enhanced and maintained Group Financial Storyboards for the Finance Department using PowerBI",
-            "Implemented Python scripts to streamline monthly data verification processes, enhancing efficiency and accuracy"
+            "Trained machine learning models such as Linear Regression, XGBoost, CatBoost, Random Forest, K Nearest Neighbours, to predict customer value and generate revenue insights for the Sales Team",
+            "Designed and implemented PowerBI dashboards for tracking AWS costs, facilitating cost management and analysis",
+            "Automated monthly Excel report generation using Python, resulting in a 50% reduction in man-hours",
+            "Implemented Python scripts to streamline monthly data verification of Group Financial Storyboards, enhancing efficiency and accuracy"
         ],
         companyLogo: tesLogo,
         toolsUsed: [
@@ -78,8 +78,7 @@ const internshipData = [
         internshipPeriod: "Sep 2022 - Dec 2022",
         description: [
             "Automated monitoring of key business metrics by developing SQL scripts to support to business operation teams",
-            "Created workflows to track buyer delivery collection lapses, streamlining operational processes",
-            "Managed migration of data workflows, improving data processing by over 20%"
+            "Developed workflows to track buyer delivery collection lapses, streamlining operations and improving data processing efficiency by over 20%",
         ],
         companyLogo: shopeeLogo,
         toolsUsed: [
@@ -100,9 +99,9 @@ const internshipData = [
         role: "Data Analyst Intern",
         internshipPeriod: "May 2022 - Jul 2022",
         description: [
-            "Spearheaded tracking of KPIs using Python for growth, marketing, and product teams",
-            "Designed and implemented several Tableau dashboards to support data-driven decision-making in improving customer acquisition, activation & retention",
-            "Built pipelines for data extraction & cleaning, reducing data processing time by over 50%"
+            "Spearheaded tracking of KPIs using descriptive analytical techniques with Python for growth, marketing, and product teams",
+            "Performed Cohort Analysis using Tableau to optimise data-driven decision-making for customer acquisition, activation, and retention strategies",
+            "Conducted data extraction & data cleaning with Pandas, building pipelines and reducing data processing time by over 50%"
         ],
         companyLogo: questLogo,
         toolsUsed: [
