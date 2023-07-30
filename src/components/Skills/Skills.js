@@ -53,7 +53,7 @@ export default function Education() {
                 {/* Programming Languages */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
                     <p className="font-bold">Programming Languages</p>
-                    <ul className="flex flex-row grid grid-cols-4 pt-5">
+                    <ul className="flex flex-row grid grid-cols-5 pt-5">
                         {languageComponents.map((item, index) => (
                             <li className="" key={index}>{item}</li>
                         ))}
@@ -63,7 +63,7 @@ export default function Education() {
                 {/* Data Science & Analytics */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
                     <p className="font-bold">Data Science & Analytics</p>
-                    <ul className="flex flex-row grid grid-cols-4 pt-5">
+                    <ul className="flex flex-row grid grid-cols-5 pt-5">
                         {datasciComponents.map((item, index) => (
                             <li className="" key={index}>{item}</li>
                         ))}
@@ -73,7 +73,7 @@ export default function Education() {
                 {/* Data Visualisation */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
                     <p className="font-bold">Data Visualisation</p>
-                    <ul className="flex flex-row grid grid-cols-4 pt-5">
+                    <ul className="flex flex-row grid grid-cols-5 pt-5">
                         {datavizComponents.map((item, index) => (
                             <li className="" key={index}>{item}</li>
                         ))}
@@ -83,7 +83,7 @@ export default function Education() {
                 {/* Database */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
                     <p className="font-bold">Database</p>
-                    <ul className="flex flex-row grid grid-cols-4 pt-5">
+                    <ul className="flex flex-row grid grid-cols-5 pt-5">
                         {databaseComponents.map((item, index) => (
                             <li className="" key={index}>{item}</li>
                         ))}
@@ -93,7 +93,7 @@ export default function Education() {
                 {/* Web Development */}
                 <div className="shadow-2xl p-5 mb-5 rounded-lg">
                     <p className="font-bold">Web Development</p>
-                    <ul className="flex flex-row grid grid-cols-4 pt-5">
+                    <ul className="flex flex-row grid grid-cols-5 pt-5">
                         {webdevComponents.map((item, index) => (
                             <li className="" key={index}>{item}</li>
                         ))}

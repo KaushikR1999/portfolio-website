@@ -5,6 +5,8 @@ import sqlLogo from '../../images/Skills/database.png';
 import numpyLogo from '../../images/Skills/numpy.png';
 import pandasLogo from '../../images/Skills/pandas.png';
 import scikitLogo from '../../images/Skills/scikit.png';
+import tfLogo from '../../images/Skills/tensorflow.png';
+import kerasLogo from '../../images/Skills/keras.png';
 
 import tableauLogo from '../../images/Skills/tableau.svg';
 import powerbiLogo from '../../images/Skills/powerbi.png';
@@ -55,6 +57,16 @@ const skillData = [
             id: 3, 
             skillName: "Scikit-Learn",
             skillLogo: scikitLogo
+        },
+        {
+            id: 4, 
+            skillName: "TensorFlow",
+            skillLogo: tfLogo
+        },
+        {
+            id: 5, 
+            skillName: "Keras",
+            skillLogo: kerasLogo
         },
     ],
     // Data Visualisation
