@@ -16,12 +16,12 @@ const internshipData = [
     {
         id: 1, 
         companyName: "TES",
-        role: "Data Analyst Intern",
+        role: "Data Scientist Intern",
         internshipPeriod: "Jan 2023 - Jun 2023",
         description: [
             "Trained machine learning models such as Linear Regression, XGBoost, CatBoost, Random Forest, K Nearest Neighbours, to predict customer value and generate revenue insights for the Sales Team",
-            "Designed and implemented PowerBI dashboards for tracking AWS costs, facilitating cost management and analysis",
             "Automated monthly Excel report generation using Python, resulting in a 50% reduction in man-hours",
+            "Designed and implemented PowerBI dashboards for tracking AWS costs, facilitating cost management and analysis",
             "Implemented Python scripts to streamline monthly data verification of Group Financial Storyboards, enhancing efficiency and accuracy"
         ],
         companyLogo: tesLogo,
