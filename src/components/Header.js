@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <nav className="fixed shadow-xl top-0 w-full p-5 bg-gray-900 font-medium flex flex-row justify-between">
+        <nav className="fixed shadow-xl top-0 w-full p-5 bg-blue-200 font-medium flex flex-row justify-between text-blue-800">
             <a href="/" className="sm:text-2xl py-6">Kaushik Rangaraj</a>
             <ul className="place-items-center flex flex-wrap space-x-2 text-xs sm:text-base">
                 <li>

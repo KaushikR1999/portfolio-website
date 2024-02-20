@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-nunito-sans bg-slate-800 text-stone-50">
+    <div className="font-nunito-sans bg-blue-100 text-blue-800">
       <Header />
       <main>
         <About />

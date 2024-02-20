@@ -4,7 +4,7 @@ import emailLogo from '../images/Footer/envelope.png';
 
 export default function Footer() {
     return (
-        <footer className="p-5 bg-gray-900 justify-center">
+        <footer className="p-5 bg-blue-200 justify-center">
             {/* <div>
                 <h1 className="text-center font-medium text-2xl">Kaushik Rangaraj</h1>
             </div> */}

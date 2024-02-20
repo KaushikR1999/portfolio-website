@@ -3,9 +3,9 @@ import imageSrc from '../images/About/kaushik_quest.png'
 export default function About() {
     return (
         <div id="about" className="pt-56">
-            <div className="text-center text-3xl md:text-4xl font-bold">About Me</div>
-            <div className="grid grid-cols-1 md:grid-cols-2 font-medium px-10 md:px-30 py-10">
-                <div className="w-40 h-40 justify-self-center rounded-full overflow-hidden">
+        <div className="text-center text-3xl md:text-4xl font-bold">About Me</div>
+        <div className="grid grid-cols-1 md:grid-cols-2 font-medium px-10 md:px-30 py-10">
+            <div className="w-40 h-40 justify-self-center rounded-full overflow-hidden border-2 border-orange-500">
                     <img
                         className="object-cover w-full h-full"
                         src={imageSrc}

@@ -8,12 +8,12 @@ export default function Internship(props) {
             {/* Column to display basic information about internship */}
             <div>
                 <img className="w-40 h-30" src={props.internship.companyLogo} alt={props.internship.companyName}></img>
-                <p className="pt-5 text-center text-sm text-sky-400">{props.internship.internshipPeriod}</p>
+                <p className="pt-5 text-center text-sm text-blue-700">{props.internship.internshipPeriod}</p>
             </div>
 
             {/* Column to display internship responsibilities */}
             <div className="pt-5 md:pt-0 md:justify-start lg:mr-40">
-                <p className="font-semibold text-center md:text-start text-emerald-200">{props.internship.role}</p>
+                <p className="font-semibold text-center md:text-start text-blue-900">{props.internship.role}</p>
                 <ul className="pt-5 list-disc space-y-2">
                     {props.internship.description.map((item, index) => (
                         <li className="text-sm" key={index}>{item}</li>

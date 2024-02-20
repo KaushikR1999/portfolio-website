@@ -8,7 +8,7 @@ export default function Education(props) {
 
             <div className="justify-self-center">
                 <img className="w-40 h-30" src={props.education.schoolLogo} alt={props.education.school}></img>
-                <p className="pt-5 text-center text-sm text-sky-400">{props.education.duration}</p>
+                <p className="pt-5 text-center text-sm text-blue-700">{props.education.duration}</p>
             </div>
 
             <div className="pt-2 md:pt-0 md:pr-20">

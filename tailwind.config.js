@@ -13,6 +13,13 @@ module.exports = {
       fontFamily: {
         sans: ['Nunito Sans', 'sans-serif'],
       },
+      colors: {
+        deepSapphire: '#0F4C81',
+        softSky: '#87BFFF',
+        vibrantTangerine: '#FF7043',
+        offWhite: '#F1F1F1',
+        darkSlate: '#2B2B2B',
+      }
     },
   },
   variants: {},
